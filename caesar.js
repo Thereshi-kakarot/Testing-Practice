@@ -11,4 +11,4 @@ function caesarCipher(string, shiftFactor) {
     return String.fromCharCode(shiftedPosition + "a".charCodeAt(0));
 } 
 
-modules.exports = caesarCipher;
+module.exports = caesarCipher;
